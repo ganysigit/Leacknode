@@ -10,8 +10,8 @@ export default class Login extends Component {
         <Logo />
         <Form />
         <View style={styles.signUpTextCont}>
-          <Text style={styles.signUpText}>Don't have account yet ?</Text>
-          <Text style={styles.signUpText2}>Sign Up</Text>
+          <Text style={styles.signUpText}>Already have an account ?</Text>
+          <Text style={styles.signUpText2}>Sign In</Text>
         </View>
       </View>
     );

@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <StatusBar backgroundColor="#e74c3c" barStyle="light-content" />
+        <StatusBar backgroundColor="#c0392b" barStyle="light-content" />
         <Login />
       </View>
     );
@@ -15,7 +15,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#c0392b",
+    backgroundColor: "#e74c3c",
     flex: 1,
     alignItems: "center",
     justifyContent: "center"
